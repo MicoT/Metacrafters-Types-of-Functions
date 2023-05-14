@@ -13,12 +13,8 @@ The code was using and module called Openzeppelin to initialize the token and ad
 To run this code will require an IDE, Node js and a library called hardhat.
 
 Once the repository has been cloned you need to peform these commands in your terminal:
-```
-npm install 
 
-npm start
-```
-After that simple run this code to set up hardhat:
+Run the commands below to be able to launch the token on a local hardhat network.
 ```
 npm install --save-dev hardhat
 
@@ -27,7 +23,9 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-These commands should ensure that both the website and the local blockchain is running.
+Once the contract is deployed, the terminal/console should notify you where the contract is deployed and you can use the address to access it.
+
+You can use Remix IDE to connect to the token.
 
 ## Authors
 
